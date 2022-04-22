@@ -1,0 +1,223 @@
+body {
+    font-family: 'Nunito';
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+body, html {
+    height: 100%;
+  }
+
+.link-hover:hover {
+    color: black !important;
+    font-weight: bold;
+}
+
+.link-active {
+    color: black !important;
+    font-weight: bold;
+}
+
+.bg-frontend {
+    background: url('../media/bg-frontend/yayasan.jpg');
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    /* background-size: 85%; */
+    background-size: cover;
+}
+
+.bg {
+    /* The image used */
+    background-image: url('../media/images/logo/background.png');
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    /* background-size: cover; */
+}
+
+.card-login {
+    opacity: 80% !important;
+}
+
+.footer {
+    margin-top: auto !important;
+}
+
+.bg-jumbotron {
+    background-color: rgba(240, 240, 240, 0.8);
+}
+
+.img-jumbotron {
+    width: 100%;
+}
+
+.carousel-image {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-info {
+    background-color: rgba(189, 195, 199, 0.6);
+    height: 100%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.carousel-info h2 {
+    font-size: 2.5vw;
+}
+
+#tanggal {
+    font-size: 2vh;
+    font-style: italic;
+}
+
+#uraian {
+    font-size: 2vh;
+    font-style: oblique;
+    letter-spacing: 2px;
+}
+
+.carousel-info button {
+    max-height: 40px;
+    font-size: 2vh;
+}
+
+#modal-dokumentasi {
+    background-color: transparent !important;
+}
+
+.modal-dokumentasi-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: transparent;
+    background-clip: padding-box;
+    /* border: 1px solid rgba(0, 0, 0, 0.2); */
+    /* border-radius: 0.3rem; */
+    /* outline: 0; */
+  }
+
+.caption-background p {
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+}
+
+.icon-statistik {
+    background-color: rgba(189, 195, 199, 0.6);
+}
+
+.icon-statistik i {
+    font-size: 60px;
+}
+
+.icon-statistik p {
+    font-size: 36px;
+}
+
+.btn-anak {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: bottom;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+    .btn-anak {
+      transition: none;
+    }
+}
+  
+.btn-anak:hover, .btn-anak:focus {
+    text-decoration: none;
+}
+  
+.btn:focus, .btn.focus {
+    outline: 0;
+    /* box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); */
+}
+  
+.btn-anak.disabled, .btn-anak:disabled {
+    opacity: 0.65;
+}
+  
+.btn-anak:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+  
+a.btn-anak.disabled,
+fieldset:disabled a.btn {
+    pointer-events: none;
+}
+
+.btn-anak {
+    position: absolute;
+    /* top: 0; */
+    bottom: 10px;
+}
+
+#modal-lihat-anak-asuh table {
+    font-size: 2.75vh;
+}
+
+#modal-lihat-anak-asuh table tr th, td {
+    vertical-align:top;
+}
+
+.flex-custom {
+    min-width: 100%;
+}
+
+#uraian-kegiatan {
+    font-size: 2.5vh;
+    margin-top: 2%;
+    font-style: oblique;
+    letter-spacing: 2px;
+}
+
+.video {
+    width: 100%;
+}
+
+#profil-carousel-image img {
+    justify-content: center;
+}
+
+#uraian-profil {
+    font-size: 2.5vh;
+    font-style: oblique;
+    letter-spacing: 2px;
+    text-align: justify;
+    padding-top: 2%;
+}
