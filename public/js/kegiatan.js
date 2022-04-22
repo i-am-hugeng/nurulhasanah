@@ -49,7 +49,7 @@ $(document).ready(function() {
                         <div class="card flex-custom">\
                             <img class="card-img-top" src="/media/images/activities/photos/thumbnails/'+item.thumbnail+'">\
                             <div class="card-body">\
-                                <p class="font-weight-bold">'+item.judul+'</p>\
+                                <h4 class="font-weight-bold">'+item.judul+'</h4>\
                                 <p class="pb-4" style="font-style: oblique;">'+ arrayTanggal[2] + ' ' + bulan(arrayTanggal) + ' ' + arrayTanggal[0] +'</p>\
                                 <button type="button" id="'+ item.id +'" class="btn-anak btn-success">Detail</button>\
                             </div>\
@@ -99,7 +99,7 @@ $(document).ready(function() {
                                 <source src="/media/images/activities/videos/'+ item.nama_video +'" type="video/mp4">\
                             </video>\
                             <div class="card-body">\
-                                <h3 class="font-weight-bold">'+item.judul+'</h3>\
+                                <h4 class="font-weight-bold">'+item.judul+'</h4>\
                                 <h5>'+item.keterangan+'</h5>\
                                 <p style="font-style: oblique;">'+ arrayTanggal[2] + ' ' + bulan(arrayTanggal) + ' ' + arrayTanggal[0] +'</p>\
                             </div>\
@@ -148,7 +148,7 @@ $(document).ready(function() {
                             <div class="card flex-custom">\
                                 <img class="card-img-top" src="/media/images/activities/photos/thumbnails/'+item.thumbnail+'">\
                                 <div class="card-body">\
-                                    <p class="font-weight-bold">'+item.judul+'</p>\
+                                    <h4 class="font-weight-bold">'+item.judul+'</h4>\
                                     <p class="pb-4" style="font-style: oblique;">'+ arrayTanggal[2] + ' ' + bulan(arrayTanggal) + ' ' + arrayTanggal[0] +'</p>\
                                     <button type="button" id="'+ item.id +'" class="btn-anak btn-success">Detail</button>\
                                 </div>\
@@ -207,7 +207,7 @@ $(document).ready(function() {
                                     <source src="/media/images/activities/videos/'+ item.nama_video +'" type="video/mp4">\
                                 </video>\
                                 <div class="card-body">\
-                                    <h3 class="font-weight-bold">'+item.judul+'</h3>\
+                                    <h4 class="font-weight-bold">'+item.judul+'</h4>\
                                 <h5>'+item.keterangan+'</h5>\
                                     <p style="font-style: oblique;">'+ arrayTanggal[2] + ' ' + bulan(arrayTanggal) + ' ' + arrayTanggal[0] +'</p>\
                                 </div>\
